@@ -1,0 +1,32 @@
+{
+    "name": "chatapp1",
+    "version": "1.1.1",
+    "description": "ChatApp1: An Ionic project",
+    "devDependencies": {
+        "@angular/cli": "8.0.2",
+        "@ionic/app-scripts": "^3.2.4",
+        "@ionic/v1-toolkit": "2.0.1",
+        "gulp": "^3.5.6",
+        "gulp-clean-css": "^3.7.0",
+        "gulp-rename": "^1.2.0",
+        "gulp-sass": "^3.1.0"
+    },
+    "cordovaPlugins": [
+        "cordova-plugin-whitelist",
+        "cordova-plugin-console",
+        "cordova-plugin-device",
+        "cordova-plugin-statusbar",
+        "cordova-plugin-splashscreen",
+        "ionic-plugin-keyboard"
+    ],
+    "cordovaPlatforms": [],
+    "dependencies": {
+        "cordova-plugin-inappbrowser": "^1.7.1",
+        "ng": "0.0.0"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-inappbrowser": {}
+        }
+    }
+}
